@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +29,30 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Logs ###
+*.log
+/logs/
+/*.log
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+
+### Keys ###
+/src/key.txt
+
+### Build ###
+/build/
+/target/
+
+### Operating System ###
+Thumbs.db
+desktop.ini
